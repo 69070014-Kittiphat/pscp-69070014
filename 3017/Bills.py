@@ -10,4 +10,104 @@ def main():
     vat = (novat*7)/100
     total = novat + vat
     print(f"{total:.2f}")
+
+## 1. OJ Information
+
+'''OJ problem number/title:'''
+
+2996
+
+'''OJ submission ID, if submitted:'''
+
+541968
+
+'''OJ status:'''
+
+'''Pass'''
+
+'''Independent time spent on this problem:'''
+
+''' 0 - 15  minutes'''
+
+## 2. My Understanding
+
+''' ค่าบริการขึ้นต่ำต้อง 50 บาท และค่าบริการเองก็เป็น 10% ของค่าอาหารและน้ำ หรือก็คือหากค่าอาหารและน้ำคือ 100 ค่าบริการอย่างต่ำๆก็คือ 50 แต่ค่าบริการจะไม่มีทางเกิน 1000
+นอกจากนั้นยังมีค่าภาษี VAT 7% หลังจากคำนวณค่าอาหาร น้ำ บริการ   
+Input คือ ค่าอาหารและน้ำ
+Output คือ ค่าใช้จ่ายโดยรวม ที่มีทั้ง ค่าอาหาร น้ำ บริการ และ VAT'''
+
+## 3. My First Plan
+
+'''Step 1 : หา 10% ของค่าอาหารและน้ำ
+   Step 2 : คำนวณว่า 10% ของอาหารและน้ำถึง 50 บาทไหม
+   Step 3 : คำนวณว่า บริการ เกิน 1000 ไหม
+   Step 4 : คำนวณค่าภาษี VAT 
+   Step 5 : คิดจำนวนเงินทั้งหมดที่ต้องจ่าย'''
+
+## 4. My Final Approach
+
+''' เหมือนกันแผนแรก เพราะการคำนวณตัวเลขทำเป็นสเต็ปและขั้นตอนสามารถทำได้ง่ายๆ'''
+
+## 5. My Tests
+
+'''Test Case 1 : ถ้าราคาของงอาหารและน้ำต่ำกว่าที่ 10% ของผลรวม จะหาออกมาได้ยังไง'''
+'''Test Case 2 : หากไม่มีค่าอาหารและน้ำ จะโดนคิดค่าบริการต่ำๆ 50+ บาท'''
+'''Test Case 3 : ถ้าค่าอาหารและน้ำมากกว่า 10000 10% ที่เป็นค่าบริการ, จะเกิน 1000 ไหม'''
+
+### Test Case 1 
+
+'''Input : อาหาร 35 น้ำ 15 รวมเป็น 50 '''
+'''Expected Output : ราคาโดยรวมคือ 107 บาท'''
+'''Actual Output : ราคาโดยรวมคือ 107 บาท'''
+'''Result : Pass'''
+
+### Test Case 2 
+
+'''Input : ราคาอาหาร และ น้ำ = 0'''
+'''Expected Output : 50+'''
+'''Actual Output : 53.50'''
+'''Result : Pass'''
+
+### Test Case 3 
+
+'''Input : อาหาร+น้ำ 10000'''
+'''Expected Output : ราคาโดยรวมคือ 10000+ และ ค่าบริการไม่เกิน 1000'''
+'''Actual Output : ราคาโดยรวมคือ 10000+ และ ค่าบริการไม่เกิน 1000 '''
+'''Result : Pass'''
+
+## 6. AI Use
+
+'''No'''
+
+## 7. Human Help / Collaboration
+
+'''Did you ask a friend, TA, instructor, or another person for help on this problem?
+'''
+
+'''Yes'''
+
+'''Who helped you?'''
+
+'''ปุยฝ้าย ณิชาพัชร์ ศรีศักดา'''
+
+'''Help Receive:
+- การคิด Logic ในเชิงการเงิน'''
+
+'''What did you still do by yourself?
+- Format และ การคำนวณ'''
+
+'''Did you copy any code from another person?'''
+'''- No'''
+
+## 8. Student Declaration
+
+'''| Statement | Yes/No |'''
+
+'''| I wrote this submission in my own words. | Yes |'''
+'''| I understand my final code. | Yes |'''
+'''| I recorded the real OJ status. | Yes |'''
+'''| I did not copy AI-generated text directly into this file. | Yes |'''
+'''| I did not copy code from another person. | Yes |'''
+'''| If I received human help, I disclosed it in this file. | Yes |'''
+'''| I submitted the final code to the OJ by myself. | Yes |'''
 main()
