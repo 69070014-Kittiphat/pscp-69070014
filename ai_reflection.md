@@ -59,11 +59,11 @@ This section confirms that you followed the course AI workflow before and while 
 
 | Statement | Yes / No / Not Applicable | Short note |
 |---|---|---|
-| I read the relevant workflow before using AI. |  | Example: `workflows/STUDENT_WORKFLOW_WEB_CHAT.md`, `workflows/STUDENT_WORKFLOW_CHATGPT_CODEX.md`, `workflows/STUDENT_WORKFLOW_CLAUDE_CODE.md`, or another workflow announced by the instructor |
-| I used `instructions/COURSE_AI_INSTRUCTIONS.md`, `instructions/AGENTS.md`, or manually followed the course AI instructions if the tool did not support custom instructions. |  | Briefly explain how you used or followed it |
-| I wrote my own problem understanding before asking AI for help. |  | Briefly say where you wrote it, such as `submission.md` or private note |
-| I wrote my own first plan before asking AI for help. |  | Briefly say where you wrote it |
-| I used AI as a coach, reviewer, debugger, or test-case helper, not as a full-answer generator. |  | Briefly explain |
+| I read the relevant workflow before using AI. | Y | Example: `workflows/STUDENT_WORKFLOW_WEB_CHAT.md`, `workflows/STUDENT_WORKFLOW_CHATGPT_CODEX.md`, `workflows/STUDENT_WORKFLOW_CLAUDE_CODE.md`, or another workflow announced by the instructor |Y
+| I used `instructions/COURSE_AI_INSTRUCTIONS.md`, `instructions/AGENTS.md`, or manually followed the course AI instructions if the tool did not support custom instructions. | Y | Briefly explain how you used or followed it |
+| I wrote my own problem understanding before asking AI for help. | Y | Briefly say where you wrote it, such as `submission.md` or private note |
+| I wrote my own first plan before asking AI for help. | Y | Briefly say where you wrote it |
+| I used AI as a coach, reviewer, debugger, or test-case helper, not as a full-answer generator. | Y | Briefly explain |
 
 If you answered "No" to any item, explain why:
 
@@ -89,7 +89,7 @@ Examples:
 
 My answer:
 
-```text
+```I asked AI to help me fix PEP-8 problems
 
 ```
 
@@ -110,7 +110,7 @@ Examples:
 
 My answer:
 
-```text
+```Too many branches and line too long
 
 ```
 
@@ -131,7 +131,7 @@ Examples:
 
 My answer:
 
-```text
+```I check the outcome and PEP-8 guidelines, also rechecking trailing whitespace
 
 ```
 
@@ -147,7 +147,7 @@ Do not write only "I learned coding" or "AI helped me."
 
 My answer:
 
-```text
+```I learned to fix too many branches, I learned to fix line too long and I learned how to simplified long code
 
 ```
 
@@ -159,8 +159,8 @@ Answer honestly.
 
 | Statement | Yes / No |
 |---|---|
-| I wrote this reflection in my own words. |  |
-| This reflection describes my real AI use. |  |
-| I checked AI's suggestions before using them. |  |
-| I can explain my final code. |  |
-| I did not ask AI to write this reflection for me. |  |
+| I wrote this reflection in my own words. | Yes |
+| This reflection describes my real AI use. | Yes |
+| I checked AI's suggestions before using them. | Yes |
+| I can explain my final code. | Yes |
+| I did not ask AI to write this reflection for me. | Yes |
