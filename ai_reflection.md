@@ -45,9 +45,7 @@ Other: ...
 
 My answer:
 
-``` Gemini
-
-```
+- Gemini
 
 ---
 
@@ -67,9 +65,6 @@ This section confirms that you followed the course AI workflow before and while 
 
 If you answered "No" to any item, explain why:
 
-```text
-
-```
 
 ---
 
@@ -89,9 +84,9 @@ Examples:
 
 My answer:
 
-```I asked AI to help me fix PEP-8 problems
+- I asked AI to help me fix PEP-8 problems
 
-```
+
 
 ---
 
@@ -110,9 +105,9 @@ Examples:
 
 My answer:
 
-```Too many branches and line too long
+- Too many branches and line too long
 
-```
+
 
 ---
 
@@ -131,9 +126,9 @@ Examples:
 
 My answer:
 
-```I check the outcome and PEP-8 guidelines, also rechecking trailing whitespace
+- I check the outcome and PEP-8 guidelines, also rechecking trailing whitespace
 
-```
+
 
 ---
 
@@ -147,9 +142,9 @@ Do not write only "I learned coding" or "AI helped me."
 
 My answer:
 
-```I learned to fix too many branches, I learned to fix line too long and I learned how to simplified long code
+- I learned to fix too many branches, I learned to fix line too long and I learned how to simplified long code
 
-```
+
 
 ---
 
