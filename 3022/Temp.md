@@ -59,7 +59,7 @@
 
 ## 6. AI Use
 
-'''Yes'''
+'''No'''
 
 ## 7. Human Help / Collaboration
 
