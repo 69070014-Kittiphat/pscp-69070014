@@ -1,33 +1,23 @@
-data = []
-while True:
-    try:
-        line = input().split()
-        for x in line:
-            data.append(int(x))
-    except EOFError:
-        break
+"""Gag"""
+def find_band(size_l, count_n):
+    """flower"""
+    total = 0
+    band = 0
+    while total < count_n:
+        band += 1
+        band_size = size_l * size_l * (band - 1) + size_l * (size_l + 1) // 2
+        total += band_size
+    return band
 
-if data:
-    l = data[0]
-    n = data[1]
 
-    if n <= 0:
-        print(0)
-    else:
-        # Binary search for the smallest band k where (k * (k + 1) // 2) * l >= n
-        low = 1
-        high = 2 * (10 ** 9)
-        ans = high
+def main():
+    """number"""
+    tokens = []
+    while len(tokens) < 2:
+        tokens += input().split()
+    size_l, count_n = int(tokens[0]), int(tokens[1])
+    print(find_band(size_l, count_n))
 
-        while low <= high:
-            mid = (low + high) // 2
-            # Total capacity up to band 'mid' using integer division
-            total_capacity = (mid * (mid + 1) // 2) * l
-            
-            if total_capacity >= n:
-                ans = mid
-                high = mid - 1
-            else:
-                low = mid + 1
 
-        print(ans)
+if __name__ == "__main__":
+    main()

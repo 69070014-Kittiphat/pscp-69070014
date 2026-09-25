@@ -1,7 +1,8 @@
-"""Electricity Bill"""
-units = int(input())
+"""Kashimo"""
+from decimal import Decimal, ROUND_HALF_UP
+N = int(input())
 
-used = units
+used = N
 base = 0
 
 if used > 200:
@@ -18,10 +19,12 @@ if used > 10:
     used = 10
 if used > 0:
     base += used * 5
+ft = N * 0.50
 
 vat = base * 0.07
-ft = units * 0.50
 
 total = base + vat + ft
 
-print(f"{total:.1f}")
+result = Decimal(str(total)).quantize(Decimal("0.1"), rounding=ROUND_HALF_UP)
+
+print(result)
