@@ -303,7 +303,7 @@ If you only asked a friend, TA, or instructor and did not use AI, you do not nee
 Did you ask a friend, TA, instructor, or another person for help on this problem?
 
 ```text
-asked TA why EOF ERROR and they explain that I +k in the start of loop so it's go in first index instead of 0
+Yes, I do
 ```
 
 If yes, briefly explain what kind of help you received.
